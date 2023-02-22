@@ -56,9 +56,9 @@ app.get('/:reg_type/:address/:quantity', function (req, res, next) {
 
       port.on('data', (data) => {
          //            if (processData(data)) 
-         {
+   //      {
             resolve(data);
-         }
+   //      }
       });
 
       port.on('error', (err) => {
